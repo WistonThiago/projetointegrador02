@@ -198,7 +198,7 @@ nav li a:hover {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
 
 #statepic {
