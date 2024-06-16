@@ -201,7 +201,7 @@ function renderizarPopulacaoEstado() {
         let paragraph = document.createElement("p");
         paragraph.innerHTML = 
         `
-        <p>População: <span class="destaque">${populacao[estadoCodigo]} km²</span></p>
+        <p>População: <span class="destaque">${populacao[estadoCodigo]}</span></p>
         `
         estado.innerHTML = '';
         estado.appendChild(paragraph);
