@@ -121,8 +121,8 @@ const regiao = {
 const fatos = {
     "ac": `O Parque Nacional da Serra do Divisor é um dos maiores parques de biodiversidade do Brasil. O Museu da Borracha, em Rio Branco, conta a história da extração do látex. O Acre tem o fenômeno do "Bicho Preguiça" na região de Xapuri. A cidade de Brasileia é famosa por ser um ponto de entrada para turistas que vêm do Peru e Bolívia. O Mercado Velho em Rio Branco é um ponto de encontro cultural e histórico. O Rio Acre é crucial para a navegação e transporte local.`,
     "al": `As piscinas naturais de Maragogi são conhecidas como o "Caribe Brasileiro". Maceió é famosa por suas praias com coqueiros e águas cristalinas. O Cânion do Xingó, no Rio São Francisco, oferece passeios de barco impressionantes. A cidade de Penedo possui um dos maiores acervos arquitetônicos coloniais do Brasil. A Festa de Bom Jesus dos Navegantes é uma das maiores celebrações religiosas do estado. Alagoas é famosa pelo artesanato de renda e filé.`,
-    "am": "Norte",
-    "ap": "Norte",
+    "am": `Manaus abriga o famoso Teatro Amazonas, símbolo da riqueza do ciclo da borracha. O Encontro das Águas, onde os rios Negro e Solimões se encontram, é um fenômeno natural impressionante. O Arquipélago de Anavilhanas é um dos maiores arquipélagos fluviais do mundo. A Reserva de Desenvolvimento Sustentável Mamirauá é um exemplo de ecoturismo. O Museu do Seringal Vila Paraíso recria um seringal da época do ciclo da borracha. O Mercado Municipal Adolpho Lisboa é um marco histórico e cultural de Manaus.`,
+    "ap": `A Fortaleza de São José de Macapá é um dos maiores fortes coloniais do Brasil. Macapá é a única capital brasileira cortada pela linha do Equador. O Parque Nacional do Cabo Orange protege uma vasta área de manguezais. O Museu Sacaca conta a história e cultura das populações tradicionais do estado. A Pedra do Guindaste é um ponto turístico icônico em Macapá. A cultura marabaixo, tradicional dança afro-amapaense, é celebrada em festivais locais.`,
     "ba": "Nordeste",
     "ce": "Nordeste",
     "df": "Centro-Oeste",
