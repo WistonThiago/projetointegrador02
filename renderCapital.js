@@ -120,7 +120,7 @@ const regiao = {
 
 const fatos = {
     "ac": `O Parque Nacional da Serra do Divisor é um dos maiores parques de biodiversidade do Brasil. O Museu da Borracha, em Rio Branco, conta a história da extração do látex. O Acre tem o fenômeno do "Bicho Preguiça" na região de Xapuri. A cidade de Brasileia é famosa por ser um ponto de entrada para turistas que vêm do Peru e Bolívia. O Mercado Velho em Rio Branco é um ponto de encontro cultural e histórico. O Rio Acre é crucial para a navegação e transporte local.`,
-    "al": "Nordeste",
+    "al": `As piscinas naturais de Maragogi são conhecidas como o "Caribe Brasileiro". Maceió é famosa por suas praias com coqueiros e águas cristalinas. O Cânion do Xingó, no Rio São Francisco, oferece passeios de barco impressionantes. A cidade de Penedo possui um dos maiores acervos arquitetônicos coloniais do Brasil. A Festa de Bom Jesus dos Navegantes é uma das maiores celebrações religiosas do estado. Alagoas é famosa pelo artesanato de renda e filé.`,
     "am": "Norte",
     "ap": "Norte",
     "ba": "Nordeste",
