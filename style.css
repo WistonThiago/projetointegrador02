@@ -177,6 +177,41 @@ nav li a:hover {
     text-decoration: underline;
 }
 
+.boxcontent {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 12px;
+    width: 400px;
+    height: 325px;
+    background-color: #18929D;
+    color: black;
+}
+
+#divfatospi {
+    width: 400px;
+    height: 350px;
+    font-size: 0.98rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+#statepic {
+    width: 375px;
+    height: 300px;
+}
+
+#subpics {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
 /* CSS Formulário start */
 
 #form-contato {

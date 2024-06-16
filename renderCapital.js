@@ -118,6 +118,38 @@ const regiao = {
     "to": "Centro-Oeste"
 }
 
+const fatos = {
+    "ac": `O Parque Nacional da Serra do Divisor é um dos maiores parques de biodiversidade do Brasil. O Museu da Borracha, em Rio Branco, conta a história da extração do látex. O Acre tem o fenômeno do "Bicho Preguiça" na região de Xapuri. A cidade de Brasileia é famosa por ser um ponto de entrada para turistas que vêm do Peru e Bolívia. O Mercado Velho em Rio Branco é um ponto de encontro cultural e histórico. O Rio Acre é crucial para a navegação e transporte local.`,
+    "al": "Nordeste",
+    "am": "Norte",
+    "ap": "Norte",
+    "ba": "Nordeste",
+    "ce": "Nordeste",
+    "df": "Centro-Oeste",
+    "es": "Sudeste",
+    "go": "Centro-Oeste",
+    "ma": "Nordeste",
+    "mg": "Sudeste",
+    "ms": "Centro-Oeste",
+    "mt": "Centro-Oeste",
+    "pa": "Norte",
+    "pb": "Nordeste",
+    "pe": "Nordeste",
+    "pi": "Teresina é a única capital nordestina que não está localizada no litoral. O Parque Nacional da Serra da Capivara possui a maior concentração de sítios arqueológicos da América. A Praia de Barra Grande é um destino popular para kitesurf e ecoturismo. A cidade de Parnaíba é a porta de entrada para o Delta do Parnaíba, único delta em mar aberto das Américas. O Museu do Piauí em Teresina exibe artefatos históricos e culturais do estado. O Encontro dos Rios em Teresina é um ponto turístico onde os rios Parnaíba e Poti se encontram.",
+    "pr": "Sul",
+    "rj": "Sudeste",
+    "rn": "Nordeste",
+    "ro": "Norte",
+    "rr": "Norte",
+    "rs": "Sul",
+    "sc": "Sul",
+    "se": "Nordeste",
+    "sp": "Sudeste",
+    "to": "Centro-Oeste"
+}
+
+
+
 function renderizarCapitalEstado() {
     const estado = document.querySelector('[id^="capital-"]');
     if (!estado) {
@@ -201,3 +233,24 @@ function renderizarRegiaoEstado() {
     }
 }
 renderizarRegiaoEstado();
+
+function renderizarFatosEstado() {
+    const estado = document.querySelector('[id^="fatos-"]');
+    if (!estado) {
+        console.error("Elemento do estado não encontrado.");
+        return;
+    }
+    const estadoCodigo = estado.id.replace("fatos-", "");
+    if (fatos.hasOwnProperty(estadoCodigo)) {
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = 
+        `
+        <p>${fatos[estadoCodigo]}</p>
+        `
+        estado.innerHTML = '';
+        estado.appendChild(paragraph);
+    } else {
+        console.error(`Informações para o estado ${estadoCodigo} não encontradas.`);
+    }
+}
+renderizarFatosEstado();
