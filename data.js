@@ -82,7 +82,7 @@ const estados = [
   }
 ]
 
-console.log(estados[0].ac)
+//console.log(estados[0].ac)
 
 function createParagraph() {
     const paragraph = document.createElement("p")
