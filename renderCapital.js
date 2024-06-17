@@ -115,7 +115,7 @@ const regiao = {
     "sc": "Sul",
     "se": "Nordeste",
     "sp": "Sudeste",
-    "to": "Centro-Oeste"
+    "to": "Norte"
 }
 
 const fatos = {
