@@ -32,6 +32,8 @@ usernameInput.addEventListener("change", (e) => {
 const emailInput = document.getElementById("email");
 const emailLabel = document.querySelector('label[for="email"]');
 const emailHelper = document.getElementById("emailhelper");
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const inputsForms = document.getElementById("form-contato");
 
 addInput(emailInput, emailLabel)
 
@@ -42,9 +44,18 @@ emailInput.addEventListener("change", (e) => {
         emailHelper.classList.remove("visible")
     } else {
         emailInput.classList.remove("correct")
-            emailInput.classList.add("error")
-            emailHelper.classList.add("visible")
-            emailHelper.innerText = "O endereço de e-mail deve conter '@' e '.com'."
+        emailInput.classList.add("error")
+        emailHelper.classList.add("visible")
+        emailHelper.innerText = "O endereço de e-mail deve conter '@' e '.com'."
+    }
+})
+
+inputsForms.addEventListener("submit", (e) => {
+    if (!emailRegex.test(emailInput.value)) {
+        e.preventDefault();
+        window.alert("E-mail inválido!")
+    } else {
+        return
     }
 })
 

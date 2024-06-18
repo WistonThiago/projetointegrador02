@@ -13,11 +13,11 @@
         <h1>Formulário de Contato</h1>
     </header>
     <main>
-        <form action="/index.html" id="form-contato">
+        <form action="/index.html" id="form-contato" type="submit">
             <section>
                 <h2>Dados Pessoais</h2>
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <input type="text" id="nome" name="nome" required minlength="3" maxlength="50">
                 <p id="nomehelper" class="helper-text" style="margin-top: -15px;"></p>
 
                 <label for="email">E-mail:</label>
@@ -34,7 +34,7 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required minlength="30" maxlength="100"></textarea>
             </section>
-            <button type="submit">Enviar</button>
+            <button type="submit" id="enviar-msg">Enviar</button>
         </form>
         <h3>Voltar pra <a href="/index.html">Home</a></h2>
     </main>
