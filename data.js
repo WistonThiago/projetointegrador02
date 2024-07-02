@@ -1,4 +1,4 @@
-const estados = [
+const estadosAbout = [
   {
     ac: "O Acre, localizado na região Norte do Brasil, tem uma história marcada pela exploração da borracha no final do século XIX e início do século XX. Originalmente parte da Bolívia, foi incorporado ao Brasil após o Tratado de Petrópolis em 1903, resultado de conflitos entre seringueiros brasileiros e autoridades bolivianas. Sua capital é Rio Branco, e o estado é conhecido por sua biodiversidade amazônica e culturas indígenas. Atualmente, o Acre se destaca pela produção de borracha, castanha e açaí, além de esforços de conservação ambiental e desenvolvimento sustentável."
   },
